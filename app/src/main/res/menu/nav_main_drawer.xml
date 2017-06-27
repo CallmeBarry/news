@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+           <item
+            android:id="@+id/nav_item1"
+            android:icon="@mipmap/ic_launcher"
+            android:title="菜单1"/>
+        <item
+            android:id="@+id/nav_item2"
+            android:icon="@mipmap/ic_launcher"
+            android:title="菜单2"/>
+        <item
+            android:id="@+id/nav_item3"
+            android:icon="@mipmap/ic_launcher"
+            android:title="菜单3"/>
+
+    <group android:id="@+id/grop01">
+        <item
+            android:id="@+id/nav_item4"
+            android:icon="@mipmap/ic_launcher"
+            android:title="菜单4"/>
+        <item
+            android:id="@+id/nav_item5"
+            android:icon="@mipmap/ic_launcher"
+            android:title="菜单5"/>
+        <item
+            android:id="@+id/nav_item6"
+            android:icon="@mipmap/ic_launcher"
+            android:title="菜单6"/>
+    </group>
+
+</menu>
